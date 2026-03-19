@@ -64,4 +64,19 @@
 
 <div class="result" id="result"></div>
 
+<script>
+const pool = [
+  { name: "スライム", rarity: "N", rate: 50 },
+  { name: "ゴブリン", rarity: "N", rate: 30 },
+  { name: "ナイト", rarity: "R", rate: 12 },
+  { name: "ウィザード", rarity: "R", rate: 5 },
+  { name: "ドラゴン", rarity: "SR", rate: 2.5 },
+  { name: "フェニックス", rarity: "SR", rate: 0.4 },
+  { name: "神龍", rarity: "SSR", rate: 0.1 }
+];
+
+function drawGacha() {
+  const rand = Math.random() * 100;
+  let sum = 0;
+
 </html>
